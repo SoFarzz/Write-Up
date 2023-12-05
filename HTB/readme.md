@@ -1,17 +1,3 @@
-# HTB Machine
-Solution HTB Machine
+# HTB Solution/Writeup
 
-## Starting Point 0
-
-## Starting Point 1
-
-## Starting Point 2
-
-## Easy
-
-## Medium
-
-## Hard
-
-## Insane
-
+All solution and writeup for HTB including CTF.

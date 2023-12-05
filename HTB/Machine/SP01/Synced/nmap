@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Tue Dec  5 05:57:46 2023 as: nmap -p- --open --min-rate=1000 --vv -o nmap 10.129.9.162
+Nmap scan report for 10.129.9.162
+Host is up, received echo-reply ttl 63 (0.21s latency).
+Scanned at 2023-12-05 05:57:46 EST for 57s
+Not shown: 65470 closed tcp ports (reset), 64 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE REASON
+873/tcp open  rsync   syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec  5 05:58:43 2023 -- 1 IP address (1 host up) scanned in 56.64 seconds

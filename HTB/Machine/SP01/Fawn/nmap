@@ -1,0 +1,11 @@
+# Nmap 7.93 scan initiated Tue Dec  5 04:46:14 2023 as: nmap -p- --open --min-rate=1000 --vv -o nmap 10.129.217.21
+Nmap scan report for 10.129.217.21
+Host is up, received echo-reply ttl 63 (0.18s latency).
+Scanned at 2023-12-05 04:46:14 EST for 58s
+Not shown: 65306 closed tcp ports (reset), 228 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE REASON
+21/tcp open  ftp     syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec  5 04:47:12 2023 -- 1 IP address (1 host up) scanned in 58.06 seconds

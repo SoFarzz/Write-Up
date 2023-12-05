@@ -1,0 +1,23 @@
+# Nmap 7.93 scan initiated Tue Dec  5 05:16:41 2023 as: nmap -p- --open --min-rate=1000 --vv -o nmap 10.129.1.13
+Nmap scan report for 10.129.1.13
+Host is up, received echo-reply ttl 127 (0.17s latency).
+Scanned at 2023-12-05 05:16:41 EST for 70s
+Not shown: 65521 closed tcp ports (reset)
+PORT      STATE SERVICE       REASON
+135/tcp   open  msrpc         syn-ack ttl 127
+139/tcp   open  netbios-ssn   syn-ack ttl 127
+445/tcp   open  microsoft-ds  syn-ack ttl 127
+3389/tcp  open  ms-wbt-server syn-ack ttl 127
+5985/tcp  open  wsman         syn-ack ttl 127
+47001/tcp open  winrm         syn-ack ttl 127
+49664/tcp open  unknown       syn-ack ttl 127
+49665/tcp open  unknown       syn-ack ttl 127
+49666/tcp open  unknown       syn-ack ttl 127
+49667/tcp open  unknown       syn-ack ttl 127
+49668/tcp open  unknown       syn-ack ttl 127
+49669/tcp open  unknown       syn-ack ttl 127
+49670/tcp open  unknown       syn-ack ttl 127
+49671/tcp open  unknown       syn-ack ttl 127
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec  5 05:17:51 2023 -- 1 IP address (1 host up) scanned in 70.58 seconds

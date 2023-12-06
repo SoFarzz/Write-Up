@@ -1,0 +1,18 @@
+# Nmap 7.93 scan initiated Tue Dec  5 12:19:06 2023 as: nmap -p- --open --min-rate=1000 --vv -o nmap 10.10.11.243
+Nmap scan report for 10.10.11.243
+Host is up, received echo-reply ttl 63 (0.16s latency).
+Scanned at 2023-12-05 12:19:07 EST for 61s
+Not shown: 65526 closed tcp ports (reset)
+PORT      STATE SERVICE     REASON
+22/tcp    open  ssh         syn-ack ttl 63
+80/tcp    open  http        syn-ack ttl 63
+1883/tcp  open  mqtt        syn-ack ttl 63
+5672/tcp  open  amqp        syn-ack ttl 63
+8161/tcp  open  patrol-snmp syn-ack ttl 63
+40547/tcp open  unknown     syn-ack ttl 63
+61613/tcp open  unknown     syn-ack ttl 63
+61614/tcp open  unknown     syn-ack ttl 63
+61616/tcp open  unknown     syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Dec  5 12:20:08 2023 -- 1 IP address (1 host up) scanned in 61.69 seconds

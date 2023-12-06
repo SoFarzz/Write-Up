@@ -17,6 +17,8 @@ Solution HTB Machine
 
 ## Easy
 1. Broken (Retired)
+2. Devvortex (Active)
+3. 
 ## Medium
 
 ## Hard

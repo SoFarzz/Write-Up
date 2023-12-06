@@ -16,7 +16,7 @@ Solution HTB Machine
 ## Starting Point 2
 
 ## Easy
-
+1. Broken (Retired)
 ## Medium
 
 ## Hard
